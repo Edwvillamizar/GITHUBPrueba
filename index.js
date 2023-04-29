@@ -7,7 +7,7 @@ window.addEventListener("scroll", function(){
     if(ubicacionPrincipal >= desplazamientoActual){ // 200 > 180
         document.getElementsByTagName("nav")[0].style.top = "1px"
     }else{
-        document.getElementsByTagName("nav")[0].style.top = "-99px"
+        document.getElementsByTagName("nav")[0].style.top = "-98px"
     }
     ubicacionPrincipal= desplazamientoActual; //200
 
